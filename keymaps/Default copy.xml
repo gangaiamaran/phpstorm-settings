@@ -21,6 +21,9 @@
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta alt a" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="meta p" />
@@ -30,6 +33,9 @@
   </action>
   <action id="NextProjectWindow" />
   <action id="ParameterInfo" />
+  <action id="PhpGeneratePhpDocBlocks">
+    <mouse-shortcut keystroke="meta button1 doubleClick" />
+  </action>
   <action id="Refresh" />
   <action id="Replace" />
   <action id="Rerun" />
